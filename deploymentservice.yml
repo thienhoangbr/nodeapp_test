@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: anymousvng/k8snodejsapp:latest
+        image: anymousvng/k8snodeapplight:latest
         ports:
         - containerPort: 3000
         
