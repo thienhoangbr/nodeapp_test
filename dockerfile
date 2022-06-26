@@ -3,7 +3,7 @@ RUN apk add --update nodejs npm
 
 WORKDIR /usr/src/app
 
-COPY package.json ./
+COPY package*.json ./
 
 RUN npm ci
 
